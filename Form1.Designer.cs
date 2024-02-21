@@ -1,4 +1,4 @@
-﻿namespace Calculator__C__
+﻿namespace Calculator
 {
     partial class Form1
     {
@@ -65,6 +65,7 @@
             this.eight.TabIndex = 2;
             this.eight.Text = "8";
             this.eight.UseVisualStyleBackColor = true;
+            this.eight.Click += new System.EventHandler(this.eight_Click);
             // 
             // nine
             // 
@@ -74,6 +75,7 @@
             this.nine.TabIndex = 3;
             this.nine.Text = "9";
             this.nine.UseVisualStyleBackColor = true;
+            this.nine.Click += new System.EventHandler(this.nine_Click);
             // 
             // divide
             // 
@@ -83,6 +85,7 @@
             this.divide.TabIndex = 4;
             this.divide.Text = "/";
             this.divide.UseVisualStyleBackColor = true;
+            this.divide.Click += new System.EventHandler(this.divide_Click);
             // 
             // six
             // 
@@ -92,6 +95,7 @@
             this.six.TabIndex = 8;
             this.six.Text = "6";
             this.six.UseVisualStyleBackColor = true;
+            this.six.Click += new System.EventHandler(this.six_Click);
             // 
             // five
             // 
@@ -101,6 +105,7 @@
             this.five.TabIndex = 7;
             this.five.Text = "5";
             this.five.UseVisualStyleBackColor = true;
+            this.five.Click += new System.EventHandler(this.five_Click);
             // 
             // four
             // 
@@ -110,6 +115,7 @@
             this.four.TabIndex = 6;
             this.four.Text = "4";
             this.four.UseVisualStyleBackColor = true;
+            this.four.Click += new System.EventHandler(this.four_Click);
             // 
             // multiply
             // 
@@ -119,6 +125,7 @@
             this.multiply.TabIndex = 5;
             this.multiply.Text = "X";
             this.multiply.UseVisualStyleBackColor = true;
+            this.multiply.Click += new System.EventHandler(this.multiply_Click);
             // 
             // three
             // 
@@ -128,6 +135,7 @@
             this.three.TabIndex = 12;
             this.three.Text = "3";
             this.three.UseVisualStyleBackColor = true;
+            this.three.Click += new System.EventHandler(this.three_Click);
             // 
             // two
             // 
@@ -137,6 +145,7 @@
             this.two.TabIndex = 11;
             this.two.Text = "2";
             this.two.UseVisualStyleBackColor = true;
+            this.two.Click += new System.EventHandler(this.two_Click);
             // 
             // one
             // 
@@ -146,6 +155,7 @@
             this.one.TabIndex = 10;
             this.one.Text = "1";
             this.one.UseVisualStyleBackColor = true;
+            this.one.Click += new System.EventHandler(this.one_Click);
             // 
             // add
             // 
@@ -155,6 +165,7 @@
             this.add.TabIndex = 9;
             this.add.Text = "+";
             this.add.UseVisualStyleBackColor = true;
+            this.add.Click += new System.EventHandler(this.add_Click);
             // 
             // zero
             // 
@@ -164,6 +175,7 @@
             this.zero.TabIndex = 16;
             this.zero.Text = "0";
             this.zero.UseVisualStyleBackColor = true;
+            this.zero.Click += new System.EventHandler(this.zero_Click);
             // 
             // point
             // 
@@ -173,6 +185,7 @@
             this.point.TabIndex = 15;
             this.point.Text = ".";
             this.point.UseVisualStyleBackColor = true;
+            this.point.Click += new System.EventHandler(this.point_Click);
             // 
             // solve
             // 
@@ -182,6 +195,7 @@
             this.solve.TabIndex = 14;
             this.solve.Text = "=";
             this.solve.UseVisualStyleBackColor = true;
+            this.solve.Click += new System.EventHandler(this.solve_Click);
             // 
             // subtract
             // 
@@ -191,6 +205,7 @@
             this.subtract.TabIndex = 13;
             this.subtract.Text = "-";
             this.subtract.UseVisualStyleBackColor = true;
+            this.subtract.Click += new System.EventHandler(this.subtract_Click);
             // 
             // textBox1
             // 
@@ -199,6 +214,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(306, 47);
             this.textBox1.TabIndex = 17;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // Form1
             // 
