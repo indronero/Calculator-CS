@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Calculator__C__
+namespace Calculator
 {
     internal static class Program
     {
