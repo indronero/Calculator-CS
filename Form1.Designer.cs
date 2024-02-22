@@ -45,6 +45,7 @@
             this.solve = new System.Windows.Forms.Button();
             this.subtract = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.clear = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // seven
@@ -216,11 +217,22 @@
             this.textBox1.TabIndex = 17;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
+            // clear
+            // 
+            this.clear.Location = new System.Drawing.Point(252, 322);
+            this.clear.Name = "clear";
+            this.clear.Size = new System.Drawing.Size(64, 54);
+            this.clear.TabIndex = 18;
+            this.clear.Text = "AC";
+            this.clear.UseVisualStyleBackColor = true;
+            this.clear.Click += new System.EventHandler(this.clear_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(328, 316);
+            this.ClientSize = new System.Drawing.Size(328, 388);
+            this.Controls.Add(this.clear);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.zero);
             this.Controls.Add(this.point);
@@ -264,6 +276,7 @@
         private System.Windows.Forms.Button solve;
         private System.Windows.Forms.Button subtract;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button clear;
     }
 }
 

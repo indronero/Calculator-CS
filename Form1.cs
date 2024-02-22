@@ -170,5 +170,13 @@ namespace Calculator
 
             }
         }
+
+        private void clear_Click(object sender, EventArgs e)
+        {
+            this.textBox1.Text = "";
+            this.input = string.Empty;
+            this.op1 = string.Empty;
+            this.op2 = string.Empty;
+        }
     }
 }
