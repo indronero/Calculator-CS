@@ -23,6 +23,66 @@ namespace Calculator
             InitializeComponent();
         }
 
+        // Accessor method to set the value of 'input'
+        public void SetInput(string value)
+        {
+            input = value;
+        }
+
+        // Accessor method to get the value of 'input'
+        public string GetInput()
+        {
+            return input;
+        }
+
+        // Accessor method to set the value of 'op1'
+        public void SetOp1(string value)
+        {
+            op1 = value;
+        }
+
+        // Accessor method to get the value of 'op1'
+        public string GetOp1()
+        {
+            return op1;
+        }
+
+        // Accessor method to set the value of 'op2'
+        public void SetOp2(string value)
+        {
+            op2 = value;
+        }
+
+        // Accessor method to get the value of 'op2'
+        public string GetOp2()
+        {
+            return op2;
+        }
+
+        // Accessor method to set the value of 'operation'
+        public void SetOperation(char value)
+        {
+            operation = value;
+        }
+
+        // Accessor method to get the value of 'operation'
+        public char GetOperation()
+        {
+            return operation;
+        }
+
+        // Accessor method to set the value of 'res'
+        public void SetResult(double value)
+        {
+            res = value;
+        }
+
+        // Accessor method to get the value of 'res'
+        public double GetResult()
+        {
+            return res;
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             this.textBox1.Text = "";
